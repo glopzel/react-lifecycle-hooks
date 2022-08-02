@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+/* se heredan estilos si hay un padre o si se importa la hoja de estilos dentro del componente
+para estilos genericos
+componentes deben tener hojas propias
+*/
+h1 {
+  color: tomato;
+}

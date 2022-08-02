@@ -1,8 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client';// bootstrap debe aparecer encima de los estilos, si hay estilos privados que sobreescriban bootstrap se puedan escribir bien
+import 'bootstrap/dist/css/bootstrap.css';
+// importante, los estilos propios deben ir debajo de boostrap para que no los pisen
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
